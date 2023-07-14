@@ -118,10 +118,10 @@ STATIC_ROOT = BASE_DIR / 'collected_static'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+CORS_ALLOW_ALL_ORIGINS = True
+
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
     'http://localhost:9000',
     'http://158.160.18.87:443'
 ]
-
-CORS_ALLOW_ALL_ORIGINS = True
